@@ -1,0 +1,422 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+p{
+  color:white;
+  padding-top:200px;
+  font-weight:bold;
+  font-family: Arial;
+}
+
+video{
+  border-width: 3px;
+  border-style:solid;
+  border-color:Orange;
+}
+video{
+  height: 150px;
+  object-fit:cover ;
+  object-position: center;
+  flex:1 0 120px;
+}
+.video{
+  margin-top:10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Title-anime{
+  border-width:2px;
+    border-style:solid;
+    border-color:orange;
+    border-left:none;
+    border-top:none;
+    border-right: none;
+    height: 80px;
+   background-color: #2b2b2b;
+   text-align: start;
+   align-content: center;
+}
+.Home-link{
+  color:Orange;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left:20px;
+  text-decoration: none;
+}
+.Home-link:active{
+  background:none;
+}
+.Anime-title{
+  border-width:5px;
+    border-style:double;
+    border-color:orange;
+    border-left:none;
+    border-top:none;
+    border-right: none;
+    height: 80px;
+    background-color: #2b2b2b;
+    text-align: start;
+    align-content: center;
+    color:Orange;
+    font-weight: bold;
+    
+}
+.P-anime{
+   margin-left:20px;
+   font-size: 20px;
+}
+.anime-section{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 5px;
+    padding-left:5px;
+    padding-top:35px;
+    height: 850px;
+}
+.Animes1{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('Slime.jpg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.Animes2{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('jobless.jpg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.Animes3{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('demonlord.jpg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes3;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+
+.Animes4{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('familliarzero.jpeg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes4;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.Animes5{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('angelnextdoor.jpeg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes5;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.Animes6{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('Franxx.jpeg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes6;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes Animes6{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes5{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes4{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes3{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes2{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes1{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes7{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes8{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+@keyframes Animes9{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    75%{
+      green
+    }
+    100%{
+        border-color: purple;
+    }
+}
+.Animes7{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('Frieren.jpg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes7;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.Animes8{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('Pseudo.jpeg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes8;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.Animes9{
+  flex:1 0 120px;
+  height: 200px;
+   background-image: url('Horimiya.jpeg');
+    background-position: center;
+    background-size:cover;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:gray;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+    align-content: center;
+    text-align: center;
+    
+    animation-name: Animes9;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}

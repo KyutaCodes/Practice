@@ -1,0 +1,394 @@
+body{
+    background-color: #2b2b2b;
+    text-align: center;
+}
+.Header{
+    border-width:2px;
+    border-style:solid;
+    border-color:orange;
+    border-left:none;
+    border-top:none;
+    border-right: none;
+    height: 80px;
+   background-color: #2b2b2b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+.home-btn{
+    transition: all 2s ease-in;
+}
+
+.Contact-btn{
+  background: transparent;
+  border-style:solid;
+  border-radius: 25%;
+  padding:10px 10px 10px;
+  transition: all 0.2s ease-in-out;
+  Color:orange;
+}
+.Contact-btn:active{
+  
+  background-color: #f08c27;
+  color:white;
+}
+.Main-content{
+    padding-top:100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.Second-main{
+ 
+}
+.Image-content{
+    display:grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:13px;
+}
+.Skills{
+    padding-top:10px;
+    color:orange;
+}
+.Left-section{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.Right-section{
+    display: flex;
+    flex:1;
+    justify-content: right;
+}
+.Profile{
+    width: 60px;
+    border-radius: 50px;
+    margin-left:15px;
+    margin-right: 20px;
+    Border-color:lightblue;
+    border-width:2px;
+    border-style:solid;
+    box-shadow:0px 2px 3px  lightblue;
+}
+.btn-Aboutme{
+    background-color: #2b2b2b;
+    font-weight: bold;
+    border:none;
+    color:orange;
+    font-size: 20px;
+    margin-left:5px;
+    margin-right:5px;
+    width: 90px;
+}
+.Logos{
+    height: 25px;
+    border-style:solid;
+    border-width:2px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-color:lightblue;
+    box-shadow:0px 2px 3px  lightblue;
+    
+}
+.Mylogo{
+    width: 100px;
+    height: 300px;
+}
+.Mypfp{
+    display:inline-block;
+}
+
+
+.Profile-info{
+    display: inline-block;
+    height: 400px;
+    width: 230px;
+    padding-top:50px;
+    padding-right: 10px;
+    border-radius: 100px;
+    
+}
+.pfp{
+    width: 200px;
+    height: 300px;
+    border-style:solid;
+    border-width:5px;
+    border-radius: 85px;
+    margin-left: 9px;
+    box-shadow: 0px 10px 10px lightblue;
+}
+.Info-intro{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    height: 355px;
+    padding-left:3px;
+    padding-right: 3px;
+}
+.Kyuta{
+    padding-top:50px;
+}
+h1{
+    padding-top: 110px ;
+    font-family: Times Arial;
+    color: orange;
+    font-size: 30px;
+}
+h3{
+    padding-top:30px;
+}
+h2{
+    color:orange;
+}
+.intro-p{
+   color:white;
+   border-style:double;
+   border-color:orange; 
+   border-width: 3px;
+    border-color: orange;
+    border-right: none;
+    border-left:none;
+    border-top:none;
+    padding-bottom:5px;
+   
+}
+.about-me{
+    color:white;
+    border-style:solid;
+    border-width: 5px;
+    border-color: orange;
+    border-right: none;
+    border-left:none;
+    padding: 12px 20px 12px 20px;
+    text-align: justify;
+    
+}
+
+.Pictures{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pfp1{
+    align-items: center;
+    position:relative;
+    width: 60px;
+    height: 60px;
+    margin-right:10px;
+    margin-top:10px;
+    
+}
+.Skill-title{
+    padding-top:8px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom:4px;
+    font-weight: bold;
+    color:white;
+}
+.Profile-info1{
+    border-radius:10px;
+    padding-top:10px;
+    padding-left:10px;
+    margin-left:10px;
+    margin-top:10px;
+    background-color: gray;
+    align-content: center;
+     box-shadow: 0px 10px 15px lightblue;
+    transition: all 0.1s ease-in-out;
+     
+}
+.Profile-info1:active{
+    background-color: lightorange;
+    border-radius: 50%;
+    
+    
+}
+
+.pfp{
+    animation-name: pfp;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes pfp{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    100%{
+        border-color: purple;
+    }
+}
+.hobby-title{
+    margin-top:50px;
+}
+.hobby-sec{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-left:5px;
+    padding-top:15px;
+    padding-bottom:30px;
+}
+.hobby-1{
+    background-image: url('AnimePortriat.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    width:120px;
+    min-width: 50px;
+    
+    border-style:solid;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+   
+    animation-name: pfp;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.hobby-2{
+    background-image: url('Gamebackground.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    width:120px;
+    min-width: 50px;
+    border-style:solid;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+   
+   animation-name: pfp;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+   
+}
+.hobby-3{
+    background-image: url('OtherBG.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    width:120px;
+    min-width: 50px;
+    border-style:solid;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 10px 10px gray;
+   
+   animation-name: pfp;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.hobby-1:active{
+    
+}
+.hobby-2:active{
+    
+}
+.hobby-3:active{
+    
+}
+.hobby-link{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    padding:10px 25px;
+    border-width:1px;
+    border-color:gray;
+    border-style:solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: Arial;
+    font-weight: bold;
+    color:orange;
+    transition:all 0.05s ease-in-out;
+}
+.hobby-link:active{
+    background-color: lightblue;
+    color:white;
+}
+
+@keyframes hobby-1, hobby-2, hobby-3{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: pink;
+    }
+    100%{
+        border-color: purple;
+    }
+}
+video{
+  width: 400px;
+  height: 200px;
+}
+.Feed-back{
+  text-align: start;
+  align-content: start;
+  padding-bottom:12px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-bottom:30px;
+}
+h5{
+  color:orange;
+  font-size: 20px;
+}
+.about-text{
+  margin-top:5px;
+  text-align: justify;
+  color:white;
+  font-family: Arial;
+  font-size:15px;
+  font-style:bold;
+}
+.style-feed{
+  background-color: orange;
+  height: 2px;
+  width:100px;
+}
+.style-feed2{
+  background-color: orange;
+  height: 2px;
+  width:100px;
+  place-self:end;
+}
