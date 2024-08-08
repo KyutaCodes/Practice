@@ -1,394 +1,1149 @@
 body{
-    background-color: #2b2b2b;
-    text-align: center;
-}
-.Header{
-    border-width:2px;
-    border-style:solid;
-    border-color:orange;
-    border-left:none;
-    border-top:none;
-    border-right: none;
-    height: 80px;
-   background-color: #2b2b2b;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-}
-.home-btn{
-    transition: all 2s ease-in;
+
+    background-color: rgb(88, 86, 86);
+
+    color: white;
+
 }
 
-.Contact-btn{
-  background: transparent;
-  border-style:solid;
-  border-radius: 25%;
-  padding:10px 10px 10px;
-  transition: all 0.2s ease-in-out;
-  Color:orange;
-}
-.Contact-btn:active{
-  
-  background-color: #f08c27;
-  color:white;
-}
-.Main-content{
-    padding-top:100px;
+.header{
+
+    top: 0%;
+
+    left: 0%;
+
+    right: 0%;
+
     display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-.Second-main{
- 
-}
-.Image-content{
-    display:grid;
-    grid-template-columns: 120px 120px 120px;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left:13px;
-}
-.Skills{
-    padding-top:10px;
-    color:orange;
-}
-.Left-section{
-    display: flex;
-    width: 200px;
-    justify-content: space-between;
-    margin-right: 50px;
-}
-.Right-section{
-    display: flex;
-    flex:1;
-    justify-content: right;
-}
-.Profile{
-    width: 60px;
-    border-radius: 50px;
-    margin-left:15px;
-    margin-right: 20px;
-    Border-color:lightblue;
-    border-width:2px;
-    border-style:solid;
-    box-shadow:0px 2px 3px  lightblue;
-}
-.btn-Aboutme{
-    background-color: #2b2b2b;
-    font-weight: bold;
-    border:none;
-    color:orange;
-    font-size: 20px;
-    margin-left:5px;
-    margin-right:5px;
-    width: 90px;
-}
-.Logos{
-    height: 25px;
-    border-style:solid;
-    border-width:2px;
-    border-radius: 50%;
-    margin-right: 5px;
-    margin-left: 5px;
-    border-color:lightblue;
-    box-shadow:0px 2px 3px  lightblue;
-    
-}
-.Mylogo{
-    width: 100px;
-    height: 300px;
-}
-.Mypfp{
-    display:inline-block;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    height: 90px;
+
+    background-color: rgba(79, 77, 77, 0.822);
+
+    border-style: solid;
+
+    border-width: 2px;
+
+    border-radius: 8px;
+
+    border-color: rgb(215, 99, 86);
+
+    box-shadow: 0px 5px 6px rgb(215, 99, 86);
+
 }
 
 
-.Profile-info{
-    display: inline-block;
-    height: 400px;
-    width: 230px;
-    padding-top:50px;
+
+.left-section{
+
+    padding-left: 15px;
+
+    flex: 1 0 50px;
+
+    align-content: center;
+
+}
+
+
+
+.right-section{
+
+    height: auto;
+
     padding-right: 10px;
-    border-radius: 100px;
-    
+
+    flex: 1 0 240px;
+
+    text-align: end;
+
+    align-content: center;
+
 }
-.pfp{
-    width: 200px;
-    height: 300px;
-    border-style:solid;
-    border-width:5px;
-    border-radius: 85px;
-    margin-left: 9px;
-    box-shadow: 0px 10px 10px lightblue;
+
+
+
+.Logo-section{
+
+    display: flex;
+
+    justify-content: end;
+
+    gap: 10px;
+
+}   
+
+
+
+.header-logo-1{
+
+    border-color: rgb(103, 101, 99);
+
+    border-width: 2px;
+
+    border-style: double;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+
+    width: 40px;
+
+    height: 40px;
+
+    text-align: center;
+
+    align-content: center;
+
+    background-image: url(/Fb-logo.svg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    transition: all 0.5s ease-in-out;
+
 }
-.Info-intro{
-    display: inline-block;
-    width: 200px;
-    vertical-align: top;
-    height: 355px;
-    padding-left:3px;
-    padding-right: 3px;
+
+.header-logo-2{
+
+    border-color: rgb(103, 101, 99);
+
+    border-width: 2px;
+
+    border-style: double;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+
+    width: 40px;
+
+    height: 40px;
+
+    text-align: center;
+
+    align-content: center;
+
+    background-image: url(/Insta-logo.svg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    transition: all 0.5s ease-in-out;
+
 }
-.Kyuta{
-    padding-top:50px;
+
+.header-logo-3{
+
+    border-color: rgb(103, 101, 99);
+
+    border-width: 2px;
+
+    border-style: double;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+
+    width: 40px;
+
+    height: 40px;
+
+    text-align: center;
+
+    align-content: center;
+
+    background-image: url(/Gmail-logo.svg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    transition: all 0.5s ease-in-out;
+
 }
+
+.header-logo-4{
+
+    border-color: rgb(103, 101, 99);
+
+    border-width: 2px;
+
+    border-style: double;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+
+    width: 40px;
+
+    height: 40px;
+
+    text-align: center;
+
+    align-content: center;
+
+    background-image: url(/tiktok-logo.svg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+.header-logo-1:hover{
+
+    border-color: rgb(27, 147, 187);
+
+    background-color: aqua;
+
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+
+
+
+}
+
+.header-logo-2:hover{
+
+    border-color: rgb(27, 147, 187);
+
+    background-color: aqua;
+
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+
+}
+
+.header-logo-3:hover{
+
+    border-color: rgb(27, 147, 187);
+
+    background-color: aqua;
+
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+
+}
+
+.header-logo-4:hover{
+
+    border-color: rgb(27, 147, 187);
+
+    background-color: aqua;
+
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+
+}
+
+.body-1{
+
+    font-family: arial;
+
+    margin: 5px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    justify-content: center;
+
+}
+
+
+
+.info-text{
+
+    color: white;
+
+}
+
+
+
 h1{
-    padding-top: 110px ;
-    font-family: Times Arial;
+
+    margin-top: 50px;
+
     color: orange;
-    font-size: 30px;
+
+    font-size: 50px;
+
 }
-h3{
-    padding-top:30px;
-}
+
 h2{
-    color:orange;
+
+    align-self: baseline;
+
+    color: orange;
+
 }
-.intro-p{
-   color:white;
-   border-style:double;
-   border-color:orange; 
-   border-width: 3px;
-    border-color: orange;
-    border-right: none;
-    border-left:none;
-    border-top:none;
-    padding-bottom:5px;
-   
-}
-.about-me{
-    color:white;
-    border-style:solid;
-    border-width: 5px;
-    border-color: orange;
-    border-right: none;
-    border-left:none;
-    padding: 12px 20px 12px 20px;
+
+p{
+
+    font-size: 20px;
+
+    padding: 10px;
+
     text-align: justify;
-    
+
 }
 
-.Pictures{
+
+
+
+
+.Pfp{
+
+    margin-top: 20px;
+
+    width: 380px;
+
+    height: 500px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+.Pfp:hover{
+
+    transform: skew(10deg, 2deg);
+
+}
+
+.Pfp-1{
+
     align-content: center;
-    align-items: center;
+
     text-align: center;
+
+    width: 400px;
+
 }
-.pfp1{
-    align-items: center;
-    position:relative;
-    width: 60px;
-    height: 60px;
-    margin-right:10px;
-    margin-top:10px;
-    
-}
-.Skill-title{
-    padding-top:8px;
-    margin-right: 20px;
-    text-align: center;
-    margin-bottom:4px;
-    font-weight: bold;
-    color:white;
-}
-.Profile-info1{
-    border-radius:10px;
-    padding-top:10px;
-    padding-left:10px;
-    margin-left:10px;
-    margin-top:10px;
-    background-color: gray;
-    align-content: center;
-     box-shadow: 0px 10px 15px lightblue;
-    transition: all 0.1s ease-in-out;
-     
-}
-.Profile-info1:active{
-    background-color: lightorange;
+
+.logo{
+
+    border-color: orangered;
+
+    border-style: solid;
+
+    border-width: 5px;
+
     border-radius: 50%;
-    
-    
+
+    box-shadow: 0px 15px 10px rgb(40, 41, 41);
+
+    width: 100%;
+
+    height: 450px;
+
 }
 
-.pfp{
-    animation-name: pfp;
+
+
+
+
+.logo{
+
+    animation-name: logo;
+
     animation-iteration-count: infinite;
+
     animation-duration: 2s;
+
 }
-@keyframes pfp{
+
+
+
+@keyframes logo{
+
     0%{
+
         border-color: red;
+
     }
+
     25%{
+
         border-color: yellow;
+
     }
+
     50%{
-        border-color: pink;
+
+        border-color: rgb(238, 81, 133);
+
     }
-    100%{
+
+    75%{
+
         border-color: purple;
+
     }
+
+    100%{
+
+        border-color: red;
+
+    }
+
 }
+
+.intro-profile{
+
+    border-width: 5px;
+
+    border-color: orangered;
+
+    border-style: solid;
+
+    border-top: none;
+
+    border-right: none;
+
+    border-left: none;
+
+    padding-bottom: 20px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+}
+
+
+
+.Main{
+
+    margin-top: 50px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    justify-content: center;
+
+}
+
+
+
+.content-1{
+
+    border-width: 5px;
+
+    border-style: double;
+
+    border-color: orangered;
+
+    border-top: none;
+
+    border-right: none;
+
+    border-bottom: none;
+
+    flex: 1 0 250px;
+
+    align-content: top;
+
+    text-align: center;
+
+}
+
+.about-me-info{
+
+    margin: 10px;
+
+    
+
+}
+
+.content-2{
+
+    align-content: top;
+
+    text-align: center;
+
+    flex: 1 0 250px;
+
+}
+
+
+
+.logos{
+
+    background-color: rgb(39, 38, 38);
+
+    border-radius: 15px;
+
+    transition: all 0.3s ease-in-out;
+
+    box-shadow: 0px 5px 5px gray;
+
+
+
+}
+
+.logos:hover{
+
+    background-color: rgb(225, 183, 104);
+
+    box-shadow: 0px 5px 5px rgb(42, 41, 41);
+
+}
+
+.skill-img{
+
+    align-items: center;
+
+    justify-content: center;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    padding: 20px;
+
+    margin-top: 10px;
+
+    justify-content: center;
+
+
+
+}
+
+.skill-logo{
+
+    flex-shrink: 100%;
+
+    border-radius: 25%;
+
+    padding: 10px;
+
+    margin: 5px;
+
+    width: 80px;
+
+    height: 80px;
+
+}
+
+
+
+
+
 .hobby-title{
-    margin-top:50px;
-}
-.hobby-sec{
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 5px;
-    padding-left:5px;
-    padding-top:15px;
-    padding-bottom:30px;
-}
-.hobby-1{
-    background-image: url('AnimePortriat.jpg');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 200px;
-    width:120px;
-    min-width: 50px;
-    
-    border-style:solid;
+
     border-radius: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
-    box-shadow: 0px 10px 10px gray;
-   
-    animation-name: pfp;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-}
-.hobby-2{
-    background-image: url('Gamebackground.jpg');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 200px;
-    width:120px;
-    min-width: 50px;
-    border-style:solid;
-    border-radius: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
-    box-shadow: 0px 10px 10px gray;
-   
-   animation-name: pfp;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-   
-}
-.hobby-3{
-    background-image: url('OtherBG.jpg');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 200px;
-    width:120px;
-    min-width: 50px;
-    border-style:solid;
-    border-radius: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
-    box-shadow: 0px 10px 10px gray;
-   
-   animation-name: pfp;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-}
-.hobby-1:active{
-    
-}
-.hobby-2:active{
-    
-}
-.hobby-3:active{
-    
-}
-.hobby-link{
-    background: transparent;
-    backdrop-filter: blur(5px);
-    padding:10px 25px;
-    border-width:1px;
-    border-color:gray;
-    border-style:solid;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 15px;
-    font-style: Arial;
-    font-weight: bold;
-    color:orange;
-    transition:all 0.05s ease-in-out;
-}
-.hobby-link:active{
-    background-color: lightblue;
-    color:white;
+
+    align-content:center ;
+
+    background-color: rgba(79, 77, 77, 0.822);
+
+    height: 50px;
+
+    border-style: solid;
+
+    border-width: 2px;
+
+    border-radius: 8px;
+
+    border-color: rgb(215, 99, 86);
+
+    box-shadow: 0px 5px 6px rgb(215, 99, 86);
+
 }
 
-@keyframes hobby-1, hobby-2, hobby-3{
-    0%{
-        border-color: red;
-    }
-    25%{
-        border-color: yellow;
-    }
-    50%{
-        border-color: pink;
-    }
-    100%{
-        border-color: purple;
-    }
+
+
+.content-3{
+
+    align-content: center;
+
+    text-align: center;
+
+    flex: 1 0 100%;
+
+    height: 700px;
+
 }
-video{
-  width: 400px;
-  height: 200px;
+
+.Hobby-section{
+
+    display: flex;
+
+    flex-wrap: nowrap;
+
+    gap: 5px;
+
+    margin: 10px;
+
+    justify-content: space-evenly;
+
 }
-.Feed-back{
-  text-align: start;
-  align-content: start;
-  padding-bottom:12px;
-  padding-left:15px;
-  padding-right:15px;
-  margin-bottom:30px;
+
+
+
+.hobbies-1{
+
+    max-width: 400px;
+
+    border-color: rgb(233, 60, 60);
+
+    border-style: solid;
+
+    border-width: 3px;
+
+    border-radius: 4px;
+
+    box-shadow: 0px 10px 10px rgb(215, 99, 86);
+
+    margin: 10px;
+
+    height: 450px;
+
+    flex: 1 0 150px;
+
+    overflow-x: auto;
+
+    display: flex;
+
+    gap: 10px;
+
+    scroll-snap-type: y both proximity;
+
+    text-align: center;
+
 }
-h5{
-  color:orange;
-  font-size: 20px;
+
+
+
+.sec-1{
+
+    padding-top: 10px;
+
+    padding-bottom:10px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+    border-radius: 10px;
+
+    align-content:center;
+
+    border-style: solid;
+
+    border-width: 3px;
+
+    border-radius: 8px;
+
+    border-color: rgb(15, 131, 225);
+
+    box-shadow: 0px 5px 6px rgb(25, 24, 24);
+
+    transition: all 0.3s ease-in-out;
+
+
+
 }
-.about-text{
-  margin-top:5px;
-  text-align: justify;
-  color:white;
-  font-family: Arial;
-  font-size:15px;
-  font-style:bold;
+
+.sec-1:hover{
+
+    background-color: aqua;
+
+    border-color: rgb(77, 164, 235);
+
+    box-shadow: 0px 5px 6px rgb(68, 173, 234);
+
+    color: orangered;
+
+
+
 }
-.style-feed{
-  background-color: orange;
-  height: 2px;
-  width:100px;
+
+
+
+.hobbies-2{
+
+    max-width: 400px;
+
+    border-color: rgb(233, 60, 60);
+
+    border-style: solid;
+
+    border-width: 3px;
+
+    border-radius: 4px;
+
+    box-shadow: 0px 10px 10px rgb(215, 99, 86);
+
+    margin: 10px;
+
+    height: 450px;
+
+    flex: 1 0 150px;
+
+    overflow-x: auto;
+
+    display: flex;
+
+    gap: 10px;
+
+    scroll-snap-type: y both proximity;
+
+    
+
 }
-.style-feed2{
-  background-color: orange;
-  height: 2px;
-  width:100px;
-  place-self:end;
+
+
+
+.img-containter{
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+}
+
+.img-containter-1{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/AnimePortriat.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-2{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/angelnextdoor.jpeg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-3{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/demonlord.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+ 
+
+}
+
+.img-containter-4{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/familliarzero.jpeg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-5{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/Franxx.jpeg);
+
+    background-position: center;
+
+    background-size: cover;
+
+
+
+}
+
+.img-containter-6{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/Frieren.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+
+
+}
+
+.img-containter-7{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/Horimiya.jpeg);
+
+    background-position: center;
+
+    background-size: cover;
+
+
+
+}
+
+.img-containter-8{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/jobless.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+
+
+}
+
+.img-containter-9{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/Pseudo.jpeg);
+
+    background-position: center;
+
+    background-size: cover;
+
+  
+
+}
+
+.img-containter-10{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/Slime.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-11{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/codm-portriat.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-12{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/zzz-portrait.webp);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-13{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/wuwa-portrait.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-14{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/pgr-portrait.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.img-containter-15{
+
+    align-content: center;
+
+    flex: 0 0 100%;
+
+    flex-shrink: 0;
+
+    scroll-snap-align: center;
+
+    scroll-behavior: smooth;
+
+    height: 100%;
+
+    background-image: url(/ml-portriat.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+
+
+.img{
+
+    width: 100%;
+
+    height: 99%;
+
+}
+
+
+
+
+
+::-webkit-scrollbar{
+
+    margin-bottom: 10px;
+
+    width: 5px;
+
+    background-color: rgb(187, 173, 230);
+
+}
+
+::-webkit-scrollbar-track{
+
+    margin-bottom: 10px;
+
+    background-color: rgb(72, 95, 95);
+
+    width: 30px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background-color:lightcyan ;
+
+    border-radius: 2px;
+
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-corner{
+
+    border-radius: 50px;
+
+}
+
+.content-4{
+
+    flex: 1 0 100%;
+
+    background-color: lightgreen;
+
+    height: 200px;
+
+    width: 200px;
+
+}
+
+.content-5{
+
+    flex: 1 0 100%;
+
+    background-color: lightcoral;
+
+    height: 200px;
+
+    width: 200px;
+
 }
